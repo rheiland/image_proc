@@ -10,7 +10,7 @@ from skimage import feature
 # Generate noisy image of a square
 #im = np.zeros((128, 128))
 #im[32:-32, 32:-32] = 1
-im = skimage.io.imread('Frame-03-01-2018-11-10-46.png')
+im = skimage.io.imread('img_35.png')
 
 #im = ndi.rotate(im, 15, mode='constant')
 #im = ndi.gaussian_filter(im, 4)

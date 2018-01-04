@@ -10,7 +10,7 @@ from skimage import feature
 # Generate noisy image of a square
 #im = np.zeros((128, 128))
 #im[32:-32, 32:-32] = 1
-im = img_as_ubyte(io.imread('Frame-03-01-2018-11-10-46.png', as_grey=True))
+im = img_as_ubyte(io.imread('img_35.png', as_grey=True))
 
 # Compute the Canny filter for two values of sigma
 edges1 = feature.canny(im)
